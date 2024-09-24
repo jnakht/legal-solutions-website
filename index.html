@@ -48,7 +48,12 @@
             border: none;
             color: white;
         }
-        
+        .placeholder-style::placeholder {
+          color: #707070;
+          font-family: "Poppins", sans-serif;
+          font-size: 1rem;
+          font-weight: 400;
+        }
     </style>
 </head>
 
@@ -140,9 +145,9 @@
          </section>
 
          <!-- legal practice area card container -->
-          <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:mb-24">
+          <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-24">
                 <!-- card one -->
-                <div class="card p-16 pt-12 border-b-2 border-b[#E7E7E7]  rounded-none">
+                <div class="card md:p-16 md:pt-12 border-b-2 border-b[#E7E7E7]  rounded-none">
                   <figure class="px-10 pt-10">
                     <img
                       src="images/business.png"
@@ -160,7 +165,7 @@
                   </div>
                 </div>
                 <!-- card two -->
-                <div class="card bg-gradient-to-b from-[#F3F3F3] to-[#F3F3F300] p-16 pt-12 border-2 border-[#E7E7E7] border-t-0 rounded-none">
+                <div class="card bg-gradient-to-b from-[#F3F3F3] to-[#F3F3F300] md:p-16 md:pt-12 border-2 border-[#E7E7E7] border-t-0 rounded-none">
                   <figure class="px-10 pt-10">
                     <img
                       src="images/criminal.png"
@@ -178,7 +183,7 @@
                   </div>
                 </div>
                 <!-- card three -->
-                <div class="card p-16 pt-12 border-b-2 border-b[#E7E7E7]  rounded-none">
+                <div class="card md:p-16 md:pt-12 border-b-2 border-b[#E7E7E7]  rounded-none">
                   <figure class="px-10 pt-10">
                     <img
                       src="images/child.png"
@@ -196,7 +201,7 @@
                   </div>
                 </div>
                 <!-- card four -->
-                <div class="card p-16 pt-12 rounded-none">
+                <div class="card md:p-16 md:pt-12 rounded-none">
                   <figure class="px-10 pt-10">
                     <img
                       src="images/education.png"
@@ -258,7 +263,7 @@
           </section>
 
           <!-- clients review banner section -->
-           <section class="md:mb-28">
+           <section class="mb-28">
                 <!-- carousel -->
                 <div class="carousel w-full h-[500px]">
                   <!-- slide one -->
@@ -391,7 +396,7 @@
           </section>
 
           <!-- FAQ accordion section -->
-           <section class="md:mb-24 flex flex-col md:flex-row h-[574px] items-center gap-8 justify-between">
+           <section class="mb-24 flex flex-col md:flex-row md:h-[574px] items-center gap-8 justify-between">
                 <!-- questions div -->
                 <div class="flex-1 space-y-12">
                   <div class="collapse collapse-plus ">
@@ -428,9 +433,148 @@
                       <img src="images/faq.png" alt="">
                   </div>
            </section>
-    </main>
-    <footer>
 
+           <!-- contact with us section -->
+           <section class="mb-16 mx-auto text-center max-w-[714px]">
+            <h1 class="text-[#414040] second-font text-5xl font-extrabold mb-6">Contact With Us</h1>
+            <p class="text-[#707070] font-poppins text-base font-normal">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          </section>
+
+          <!-- contact information section -->
+           <section class="flex flex-col md:flex-row gap-8 md:mb-28">
+                <!-- cards container / information div -->
+                <div class="flex-1 grid grid-cols-1 md:grid-cols-2">
+                  <!-- card one  -->
+                  <div class="card bg-[#F3F3F3] rounded-none border-b-2 border-r-2 border-[#CFCFCF]">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="images/location.png"
+                        alt="Shoes"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="text-[#414040] second-font text-2xl font-extrabold">Address</h2>
+                      <p class="text-[#707070] font-poppins text-base font-normal">A108 Adam Street, <br>
+                        New York, NY 535022</p>
+                      
+                    </div>
+                  </div>
+                  <!-- card two  -->
+                  <div class="card bg-[#F3F3F3] rounded-none">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="images/call.png"
+                        alt="Shoes"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="text-[#414040] second-font text-2xl font-extrabold">Call Us</h2>
+                      <p class="text-[#707070] font-poppins text-base font-normal">+88 01750 00 00 00 <br>
+                        +88 01750 00 00 00</p>
+                      
+                    </div>
+                  </div>
+                  <!-- card three  -->
+                  <div class="card bg-[#F3F3F3] rounded-none">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="images/email.png"
+                        alt="Shoes"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="text-[#414040] second-font text-2xl font-extrabold">Email Us</h2>
+                      <p class="text-[#707070] font-poppins text-base font-normal">info@gmail.com <br>
+                        info@gmail.com</p>
+                      
+                    </div>
+                  </div>
+                  <!-- card four  -->
+                  <div class="card bg-[#F3F3F3] rounded-none border-t-2 border-l-2 border-[#CFCFCF]">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="images/time.png"
+                        alt="Shoes"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="text-[#414040] second-font text-2xl font-extrabold">Working Hours</h2>
+                      <p class="text-[#707070] font-poppins text-base font-normal">Mon-Fri: 9AM to 5PM <br>
+                        Sunday: 9AM to 1 PM</p>
+                      
+                    </div>
+                  </div>
+                    
+                </div>
+                <!-- input div -->
+                <div class="flex-1">
+                    <form action="">
+                      <div class="space-y-8">
+                        <!-- name -->
+                        <label class="input input-bordered flex items-center gap-2 h-[72px] bg-[#F3F3F3] ">
+                          <input type="text" class="grow placeholder-style" placeholder="Your Name" />
+                        </label>
+                        <!-- email -->
+                        <label class="input input-bordered flex items-center gap-2 h-[72px] bg-[#F3F3F3]">             
+                          <input type="text" class="grow placeholder-style" placeholder="Your Email" />
+                        </label>
+                        <!-- subject -->
+                        <label class="input input-bordered flex items-center gap-2 h-[72px] bg-[#F3F3F3]">
+                          <input type="text" class="grow placeholder-style" placeholder="Subject" />
+                        </label>
+                          
+                      </div>
+                      <div class="space-y-8 mt-8">
+                        <label class="">
+                          <textarea class="textarea textarea-bordered h-[162px] w-full bg-[#F3F3F3] placeholder-style" placeholder="Your Message"></textarea>
+                        </label>
+                        
+                        <button class="btn bg-button-color h-[72px] text-white border-none w-full">Send Message</button>
+                      </div>
+                    </form>
+                </div>
+           </section>
+    </main>
+    <!-- footer section -->
+    <footer class="bg-[#111] p-3 md:p-10 md:h-[506px] ">
+      <div class="footer bg-[#111] text-base-content md:w-10/12 mx-auto md:h-[300px] flex flex-col md:flex-row justify-between mt-6  md:mt-24">
+        <nav>
+          <h6 class=""><img src="images/logo.png" alt=""></h6>
+          <p class="max-w-[130px] text-justify">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </nav>
+        <nav>
+          <h6 class=" text-[#FFF] second-font text-2xl font-extrabold">Usefull Link</h6>
+          <a class="link link-hover text-[#CFCFCF] text-base font-normal">Homes </a>
+          <a class="link link-hover text-[#CFCFCF] text-base font-normal">About Us</a>
+          <a class="link link-hover text-[#CFCFCF] text-base font-normal">Cases</a>
+          <a class="link link-hover text-[#CFCFCF] text-base font-normal">Blog</a>
+          <a class="link link-hover text-[#CFCFCF] text-base font-normal">Contact Us</a>
+        </nav>
+        <nav>
+          <h6 class=" text-[#FFF] second-font text-2xl font-extrabold">Contact Now</h6>
+          <a class="link link-hover text-[#CFCFCF] text-base font-normal">555 4th 5t NW, Washington <br>
+            DC 20530, United States</a>
+          <a class="link link-hover text-[#CFCFCF] text-base font-normal">+88 01750 000 000 <br>
+            +88 01750 000 000</a>
+          <a class="link link-hover text-[#CFCFCF] text-base font-normal">info@gmail.com <br>
+            info@gmail.com</a>
+        </nav>
+        <form>
+          <h6 class="  text-[#FFF] second-font text-2xl font-extrabold">Subscribe</h6>
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text text-[#CFCFCF] font-poppins text-base font-normal">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</span>
+            </label>
+            <div class="join">
+              <input
+                type="text"
+                placeholder="Email Address"
+                class="input bg-white" />
+              <button class="btn bg-button-color"><img class="w-4 text-white" src="images/telegram-svgrepo-com.svg" alt=""></button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
     </footer>
 </body>
 
